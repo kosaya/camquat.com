@@ -1,0 +1,61 @@
+.PageHome {
+
+  &--root {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    padding: 30px;
+    width: 100vw;
+
+    @include desktop {
+      padding: 60px;
+    }
+  }
+
+  &--heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &--image {
+    background-image: url('assets/images/camquat-pom-welcome.svg');
+    background-size: 220px 188px;
+    background-position: center bottom;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 188px;
+    width: 220px;
+  }
+
+  &--action {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &--lead {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+
+  &--call-to-action {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  &--email {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    max-width: 400px;
+  }
+
+  &--email-submit {
+    margin-left: 20px;
+  }
+
+}

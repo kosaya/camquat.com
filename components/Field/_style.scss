@@ -1,0 +1,43 @@
+.Field--root {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.Field--label {
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  right: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.Field--input {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 transparent, 0 0 0 0 transparent;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  resize: vertical;
+  transition: all 100ms;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.Field--input:focus {
+  outline: none;
+}
